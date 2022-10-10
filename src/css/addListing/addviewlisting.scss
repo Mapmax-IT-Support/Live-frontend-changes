@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+
+    align-items: center;
+   text-align: center;
+//    display: flex;
+}
+
+.multi-button {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+    place-items: center;
+}
+
+
+
+#newListings {
+    background-color: #409084;
+    border: 1px solid #409084;
+
+}
+
+#recentListings{
+    background-color: #409084;
+    border: 1px solid #409084;
+
+}
+
+#allListings {
+    background-color: #409084;
+    border: 1px solid #409084;
+
+}
+
+
+.button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 15px 0 rgba(0, 0, 0, 0.09);
+    padding: 10px 17px 10px 17px;
+    font: 15px Ubuntu;
+    color: white;
+    border-radius: 7px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#newListings span:after {
+    font-family: FontAwesome;
+    content: "\f0c4";
+}
+
+#recentListings span:after {
+    font-family: FontAwesome;
+    content: "\f0c5";
+}
+
+#allListings span:after {
+    font-family: FontAwesome;
+    content: "\f0ea";
+}

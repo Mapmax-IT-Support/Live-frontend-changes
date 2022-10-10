@@ -1,0 +1,79 @@
+.missionHeader{
+    font-family: "Ivar Headline","Times New Roman",serif;
+    font-size: 34px;
+    line-height: 48px;
+    margin-top: 20px;
+}
+
+.mission-pb-md {
+    padding-bottom: 2.1rem;
+   
+}
+
+.mission-paragraph{
+
+    text-align:start;
+    width: 100%;
+}
+.mission-paragraph--md {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.mission-section>[class*=mission-] {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.mission-align-center {
+    text-align: center;
+}
+
+.mission-heading__h1 {
+    font-family: "Ivar Headline","Times New Roman",serif;
+    font-size: 34px;
+}
+
+.mission-section {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    // background-image: url(../images/mission.jpg);
+}
+
+.missionBoxContainers{
+    width: 170px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+        p{
+        font-size: large;
+        }
+    
+    
+}
+
+.info-icon-mission{
+    margin-left: 5px;
+    padding: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    opacity: 0.75;
+}
